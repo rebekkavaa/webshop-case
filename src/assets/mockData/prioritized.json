@@ -1,0 +1,46 @@
+[
+    {
+        "id": "1",
+        "name": "Erna", 
+        "image": "https://www.na-kd.com/resize/globalassets/nakd_modal_button_details_mini_dress_1018-009228-0226-29619.jpg?ref=A9FE2B692F&quality=80&sharpen=0.3&width=846",
+        "altImage": "https://www.na-kd.com/resize/globalassets/nakd_modal_button_details_mini_dress_1018-009228-0226-29608.jpg?ref=2E7946DA0A&quality=80&sharpen=0.3&width=846",
+        "sizes":[
+            "S", "L"
+        ],
+        "price": "1200",
+        "description": ""
+    },
+    {
+        "id": "2",
+        "name": "Åse", 
+        "image": "https://www.na-kd.com/resize/globalassets/nakd_oversized_twill_blazer_1594-000462-0301_01a-1.jpg?ref=A48E7C67EC&quality=80&sharpen=0.3&width=846",
+        "altImage": "https://www.na-kd.com/resize/globalassets/nakd_oversized_twill_blazer_1594-000462-0301_02c.jpg?ref=CF72A78D5A&quality=80&sharpen=0.3&width=846",
+        "sizes":[
+            "M", "L"
+        ],
+        "price": "1300",
+        "description": ""
+    },
+    {
+        "id": "3",
+        "name": "Gro", 
+        "image": "https://www.na-kd.com/resize/globalassets/nakd_oversized_pocket_shirt_1660-000198-0001_01a.jpg?ref=4B02314263&quality=80&sharpen=0.3&width=846",
+        "altImage": "https://www.na-kd.com/resize/globalassets/nakd_oversized_pocket_shirt_1660-000198-0001_03c.jpg?ref=F2548364D6&quality=80&sharpen=0.3&width=846",
+        "sizes":[
+            "XS", "M", "L", "XL"
+        ],
+        "price": "1100",
+        "description": ""
+    },
+    {
+        "id": "4",
+        "name": "Anita", 
+        "image": "https://www.na-kd.com/resize/globalassets/nakd_rib_knitted_strap_detail_top_1100-005901-0002_5536.jpg?ref=B45D9D674B&quality=80&sharpen=0.3&width=846",
+        "altImage": "https://www.na-kd.com/resize/globalassets/nakd_rib_knitted_strap_detail_top_1100-005901-0002_5553.jpg?ref=E5462327E2&quality=80&sharpen=0.3&width=846",
+        "sizes":[
+            "XS", "S"
+        ],
+        "price": "1000",
+        "description": ""
+    }
+]

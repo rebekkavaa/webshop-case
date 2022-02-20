@@ -1,0 +1,18 @@
+.card {
+    cursor: pointer;
+}
+
+.images {
+    position: relative;
+    display: inline-block;
+}
+.images .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.images:hover .img-top {
+    display: inline;
+}

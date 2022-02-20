@@ -1,0 +1,12 @@
+  <img src="../assets/img/boxed-water-unsplash.jpg" alt="" >
+  <section class="section" *ngIf="prioritizedProducts">
+    <h1 class="title">Top picks</h1>
+    <div class="columns is-multiline is-mobile">
+      <div class="column is-one-quarter-tablet is-half-mobile" *ngFor="let product of prioritizedProducts">
+        <card-item [product]="product" (click)="navigateToDetails(product.id)"></card-item>
+      </div>
+    </div>
+  </section>
+
+
+

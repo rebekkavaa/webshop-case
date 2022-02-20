@@ -1,0 +1,33 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+
+  <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+  </a>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" routerLink="/products/women">Women</a>
+      <a class="navbar-item" routerLink="/products/men">Men</a>
+    </div>
+
+    <p class="level-item has-text-centered has-text-weight-bold">
+      brand
+    </p>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="tag is-rounded">{{products.length}}</div>        
+        <a class="button is-white is-large" (click)="expandBasket()">
+          <span class="icon">
+            <i class="fas fa-shopping-basket"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<shopping-cart></shopping-cart>
+

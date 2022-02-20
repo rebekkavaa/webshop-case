@@ -1,0 +1,7 @@
+<section class="section" *ngIf="products">
+  <div class="columns is-multiline is-mobile">
+    <div class="column is-one-quarter-tablet is-half-mobile" *ngFor="let product of products">
+      <card-item [product]="product" (click)="navigateToDetails(product.id)"></card-item>
+    </div>
+  </div>
+</section>

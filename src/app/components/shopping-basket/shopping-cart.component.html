@@ -1,0 +1,26 @@
+<div class="shopping-cart box">
+  <div class="columns" *ngFor="let product of products">
+    <div class="column">
+      <img
+        src="https://www.na-kd.com/resize/globalassets/nakd_volume_sleeve_buttoned_cardigan_1660-000142-0001_01a.jpg?ref=78C1E8D1C5&quality=80&sharpen=0.3&width=1676"
+        alt="">
+    </div>
+    <div class="column">
+      <h5 class="title is-5">{{product?.name}}</h5>
+      <div class="columns">
+        <div class="column">
+          <p>{{product?.size}}</p>
+        </div>
+        <div class="column">
+          <p>{{product?.price}}</p>
+        </div>
+        <div class="column" (click)="onDeleteItem(product)">
+          <span class="icon">
+            <i class="fas fa-trash"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="button is-medium is-fullwidth is-rounded">Checkout</button>
+</div>

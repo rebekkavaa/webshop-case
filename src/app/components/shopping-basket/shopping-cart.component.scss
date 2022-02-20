@@ -1,0 +1,12 @@
+.shopping-cart {
+    display: none; 
+    background: white;
+    width: 320px;
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+}
+
+.shopping-cart.open{
+    display: inline; 
+}

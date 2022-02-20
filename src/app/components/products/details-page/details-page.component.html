@@ -1,0 +1,31 @@
+<section class="section">
+    <div class="columns is-multiline is-mobile is-centered">
+        <div class="column is-half-tablet is-full-mobile">
+            <img [src]="product?.image" alt="">
+        </div>
+        <div class="column is-half-tablet is-full-mobile">
+            <h3 class="title is-3 mt-6 ml-3">{{product?.name}}</h3>
+            <p class="ml-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, facere, assumenda adipisci numquam officia est praesentium consectetur provident delectus facilis soluta et error ratione aliquam odit at nostrum vitae corrupti!
+            </p>
+            <div class="buttons ml-3 mt-3">
+                <button class="button" *ngFor="let size of product?.sizes" [id]="size" (click)="sizeSelected($event)">{{size}}</button>    
+            </div>
+            <button class="button is-large is-fullwidth is-rounded" (click)="addToCart()">Add to cart</button>
+
+            <button type="button" class="collapsible mt-4">Material & care</button>
+            <div class="content">
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias qui necessitatibus saepe tenetur error molestias voluptate nihil quisquam repellendus eum suscipit dignissimos impedit totam consequatur, aut ab eos harum dolore.
+                </p>
+            </div>
+            <button type="button" class="collapsible mt-4">Shipping & returns</button>
+            <div class="content">
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias qui necessitatibus saepe tenetur error molestias voluptate nihil quisquam repellendus eum suscipit dignissimos impedit totam consequatur, aut ab eos harum dolore.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+  
